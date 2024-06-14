@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'IrisErlic';
+  src: url('IrisErlic.ttf');
+}
+
+
+
+
+body {
+    background-image: url(slike/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        }
+
+
+header {
+            padding: 30px;
+            text-align:center;
+    margin-top: 180px;
+    line-height: 80px;
+        }
+
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-family: 'IrisErlic'; 
+    
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Lora", serif;
+            font-style: normal;
+}
+
+
+nav {
+            padding: 30px;
+    text-align:center;
+        }
+
+nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+    
+        }
+
+nav ul li {
+            display: inline;
+            margin-right: 45px;
+        }
+
+        nav ul li a {
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            font-family: "Lora", serif;
+            font-style: normal;
+        }
+
+.content {
+            padding: 28px;
+    font-family: "Lora", serif;
+            font-style: normal;
+    color: white;
+    font-size: 18px;
+    text-align:center;
+        }
+
+nav a:hover {
+    background-color: white;
+    color: darkblue;
+}
